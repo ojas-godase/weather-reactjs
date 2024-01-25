@@ -110,8 +110,10 @@
   font-size: 3rem;
   color: black;
   background-color: #7c76a8;
+  border: none;
 }
 .gr-info{
+  border: none;
   font-size: 4rem;
   color: black;
   background-color: #7c76a8;
