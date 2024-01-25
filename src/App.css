@@ -3,7 +3,6 @@
   background-color: #0c0921;
 }
 .container{
-  /* background-image: linear-gradient(180deg , #130754 0% , #3b2f80 100%); */
   background-color: #0c0921;
   height: 150rem;
   border-radius: 5rem;
@@ -15,8 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
-  gap: 2rem;
+  margin-top: 3rem;
+  gap: 1rem;
 }
 #input{
   background-color: white;
@@ -28,7 +27,6 @@
   border: 2px solid #0c0921;
   border-radius: 3rem;
   font-size: 2.5rem;
-  /* padding-left: 3rem; */
   color: black;
   text-align: center;
 }
@@ -48,6 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
 }
 .weather{
   width: 30rem;
@@ -122,6 +121,9 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+}
+.row1{
+  margin-top: -1.5rem;
 }
 .row2 , .row3{
   margin-top: -3rem;
