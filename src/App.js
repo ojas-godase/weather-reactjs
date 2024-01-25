@@ -29,7 +29,7 @@ export default function App() {
   }
   async function getData(city) {
     const res = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=a8ae74a7e4c147c4b54174738242401&q=${city}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=a8ae74a7e4c147c4b54174738242401&q=${city}&aqi=no`
     );
     const data = await res.json();
     if (data.error) {
@@ -49,7 +49,6 @@ export default function App() {
   useEffect(() => {
     getData(city);
   }, [city]);
-  console.log();
 
   return (
     <div className="container">
